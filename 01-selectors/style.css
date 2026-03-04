@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* 1️⃣ Type Selector */
+p {
+  color: blue;
+}
+
+/* 2️⃣ Class Selector */
+.card {
+  background: lightgray;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Descendant Selector */
+.card p {
+  color: red;
+}
+
+/* 3️⃣ ID Selector */
+#unique-box {
+  background: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* 4️⃣ Child Selector */
+.nav > li {
+  list-style: none;
+  background: lightblue;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+/* 5️⃣ Grouping Selector */
+h1, h2 {
+  font-family: sans-serif;
+}
+
+/* 6️⃣ Attribute Selector */
+input[type="text"] {
+  border: 2px solid green;
+}
+
+input[type="password"] {
+  border: 2px solid red;
+}
+
+/* 7️⃣ Pseudo-Class */
+button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
