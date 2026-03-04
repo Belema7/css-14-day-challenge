@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* 1️⃣ Block */
+.block-example {
+  display: block;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* 2️⃣ Inline */
+.inline-example {
+  display: inline;
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* 3️⃣ Inline-Block */
+.inline-block-example {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 80px;
+  margin-right: 10px;
+}
+
+/* 4️⃣ None */
+.visible-box {
+  background-color: lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hidden-box {
+  display: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* 5️⃣ Flex */
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-item {
+  background-color: orange;
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+/* 6️⃣ Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
